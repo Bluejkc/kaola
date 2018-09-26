@@ -1,0 +1,401 @@
+#docHead{
+    border-bottom: 1px solid #e8e8ea;
+    position: relative;
+    height: 101px;
+    background: #fff;
+    z-index: 103;
+    .docHeadWrap{
+        position: relative;
+        zoom: 1;
+        width: 1090px;
+        height: 100px;
+        margin: 0 auto;
+        .logokaola{
+            text-decoration: none;
+            position: absolute;
+            left: 0;
+            top: 20px;
+            width: 330px;
+            height: 65px;
+            line-height: 65px;
+            outline: none;
+            cursor: pointer;
+            background-position: left center;
+            background: url(../img/logo.png) no-repeat; 
+        }
+        .topimg{
+            position:absolute;
+            top:0;
+            left: 458px;
+            height: 100px;
+            width: 504px;
+            background: url(../img/login_top.jpg) no-repeat;
+        }
+    }
+}
+
+
+
+//
+#denglu{
+    height: 520px;
+    background: url(../img/login_banner.jpg) no-repeat;
+    background-position: center top;
+    display:block;
+    position:relative;
+    .denglu{
+        width: 352px;
+        height: 285px;
+        background: #fff;
+        position:absolute;
+        right:30%;
+        top:110px;
+        border: 1px solid #eaeaea;
+        .drTop{
+            width: 350px;
+            height: 52px;
+            border-bottom: 1px solid #ddd;
+            background-color: #f8f8f8;
+            font-size: 16px;
+            line-height: 52px;
+            color: #e31436;
+            text-align: center;
+            cursor: pointer;
+
+        }
+        .drCenter{
+            width: 350px;
+            padding: 20px 40px 15px;
+            background-color: #fff;
+            .inputbox{
+                height: 34px;
+                line-height: 30px;
+                border-color: #d5d5d5;
+                border-radius: 2px;
+                z-index: 19;
+                position: relative;
+                margin-bottom: 0px;
+                border: 1px solid #c5cddb;
+                background: #fff;
+                font-size: 12px;
+                margin-bottom:20px;
+                .u-logo{
+                    width: 17px;
+                    padding: 0 11px;
+                    float: left;
+                    text-align: center;
+                    height: 100%;
+                    div{
+                        width: 17px;
+                        height: 18px;
+                        margin-top: 8px;
+                        display: inline-block;
+                    }
+                    .u-logo-img2{
+                        background: url(../img/denglu.png) no-repeat;
+                        background-position: -68px -34px;
+                    }
+                    .u-logo-img3{
+                        background: url(../img/denglu.png) no-repeat;
+                        background-position: -36px -34px;
+                    }
+                }
+                .u-input{
+                    height: 30px;
+                    margin: 2px 0;
+                    position: relative;
+                    float: left;
+                    input{
+                        padding-left: 0px;
+                        height: 30px;
+                        line-height: 30px;
+                        font-size: 14px;
+                        font-weight: normal;
+                        width: 180px;
+                        background: #fff;
+                        border:0;
+                        margin-left:10px;
+                    }
+                }
+            }
+            .loginbox{
+                margin-top: 7px;
+                margin-bottom: 10px;
+                .u-loginbtn{
+                    height: 36px;
+                    background: #e31436;
+                    color: #fff;
+                    border-radius: 2px;
+                    line-height: 36px;
+                    font-size: 14px;
+                    display: block;
+                    width: 100%;
+                    cursor: pointer;
+                    text-align: center;
+                    &:hover{
+                        background:#f5345e; 
+                    }
+                    &::after{
+                        display: block;
+                        clear: both;
+                        visibility: hidden;
+                        height: 0;
+                        overflow: hidden;
+                        content: ".";
+                    }
+                }
+            }
+        }
+        .drbottom{
+            width: 350px;
+            height: 45px;
+            padding: 10px 40px;
+            border-top: 1px solid #ddd;
+            background-color: #f8f8f8;
+            font-size: 14px;
+            .thirdlogin{
+                float: left;
+                width: 140px;
+                .thirdicon{
+                    position: relative;
+                    display: block;
+                    float: left;
+                    width: 22px;
+                    height: 22px;
+                    margin-right: 10px;
+                    .icon{
+                        background: url(../img/login_drbottom.png) no-repeat;
+                        width: 22px;
+                        height: 22px;
+                        display: inline-block;
+                    }
+                    .w-icon{
+                        background-position: -760px -401px;
+                    }
+                    .w-icon1{
+                        background-position: -792px -401px;
+                    }
+                    .w-icon2{
+                        background-position: -824px -401px;
+                    }
+                    .w-icon3{
+                        background-position: -856px -401px;
+                    }
+                }  
+            }
+            .gotoreg{
+                display: inline-block;
+                float: right;
+                width: 105px;
+                color: #e31436;
+                line-height: 22px;
+                cursor: pointer;
+                position:relative;
+                &:hover{
+                    text-decoration: underline;
+                }
+                .arrow{
+                    display:block;
+                    background: url(../img/login_drbottom.png) no-repeat;
+                    margin-left: 5px;
+                    height: 22px;
+                    background-position: -899px -402px;
+                    width: 14px;
+                    position:absolute;
+                    right:0;
+                    top:0;
+                }
+            }
+        }
+    }
+
+
+    .zhuce{
+        width: 352px;
+        height: 285px;
+        background: #fff;
+        position:absolute;
+        right:30%;
+        top:110px;
+        border: 1px solid #eaeaea;
+        display:none;
+        .zcTop{
+            width: 350px;
+            height: 52px;
+            border-bottom: 1px solid #ddd;
+            background-color: #f8f8f8;
+            font-size: 16px;
+            cursor: pointer;
+            line-height:52px;
+            .zc{
+                color:#e31436;
+                margin-left:50px;
+            }
+            .dl{
+                margin-left:70px;
+                font-size:12px;
+                .dengl{
+                    color: blue;
+                    &:hover{
+                        text-decoration:underline;
+                    }
+                }
+            }
+
+        }
+        .zcCenter{
+            width: 350px;
+            padding: 20px 40px 15px;
+            background-color: #fff;
+            .inputbox{
+                height: 34px;
+                line-height: 30px;
+                border-color: #d5d5d5;
+                border-radius: 2px;
+                z-index: 19;
+                position: relative;
+                margin-bottom: 0px;
+                border: 1px solid #c5cddb;
+                background: #fff;
+                font-size: 12px;
+                margin-bottom:20px;
+                .u-logo{
+                    width: 17px;
+                    padding: 0 11px;
+                    float: left;
+                    text-align: center;
+                    height: 100%;
+                    div{
+                        width: 17px;
+                        height: 18px;
+                        margin-top: 8px;
+                        display: inline-block;
+                    }
+                    .u-logo-img2{
+                        background: url(../img/denglu.png) no-repeat;
+                        background-position: -68px -34px;
+                    }
+                    .u-logo-img3{
+                        background: url(../img/denglu.png) no-repeat;
+                        background-position: -36px -34px;
+                    }
+                }
+                .u-input{
+                    height: 30px;
+                    margin: 2px 0;
+                    // position: relative;
+                    float: left;
+                    input{
+                        padding-left: 0px;
+                        height: 30px;
+                        line-height: 30px;
+                        font-size: 14px;
+                        font-weight: normal;
+                        width: 180px;
+                        background: #fff;
+                        border:0;
+                        margin-left:10px;
+                        position:absolute;
+                        top:0;
+                        left:30px;
+                    }
+                    .zctisi{
+                        position:absolute;
+                        bottom:-26px;
+                        left:10px;
+                    }
+                }
+            }
+            .loginbox{
+                margin-top: 7px;
+                margin-bottom: 10px;
+                .u-loginbtn{
+                    height: 36px;
+                    background: #e31436;
+                    color: #fff;
+                    line-height: 36px;
+                    font-size: 14px;
+                    display: block;
+                    width: 100%;
+                    cursor: pointer;
+                    text-align: center;
+                    border:0;
+                    &:hover{
+                        background: #f5345e;
+                    }
+                    &::after{
+                        display: block;
+                        clear: both;
+                        visibility: hidden;
+                        height: 0;
+                        overflow: hidden;
+                        content: ".";
+                    }
+                }
+            }  
+        }
+        .fur-item{
+                text-align:center;
+                .u-zc-agree{
+                    display:inline-block;
+                    input{
+                        width: 13px;
+                        height: 13px;
+                        line-height:16px;
+                    }
+                }
+            }
+    }
+}
+
+
+
+
+//
+#foot{
+    margin-top: 40px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    .aboutNEST{
+        background: #fff;
+        padding: 0;
+        color: #666;
+        position: relative;
+        line-height: 26px;
+        text-align: center;
+        a{
+            color:#666;
+            &:hover{
+                opacity:0.7;
+            }
+        }
+        span{
+            margin: 0 20px;
+        }
+        .m-license{
+            font-size: 12px;
+            color: #999;
+            margin-left: 20px;
+        }
+        .f-tac{
+            height: 40px;
+            text-align:center;
+            position:relative;
+            a{
+                display:block;
+                position:absolute;
+                bottom:0;
+                left:45%;
+                img{
+                height: 30px;
+                margin: 5px 0 0 10px;
+                float: left;
+                
+                }
+            }
+            
+        }
+    }
+}
